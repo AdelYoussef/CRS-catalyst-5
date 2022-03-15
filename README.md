@@ -10,6 +10,4 @@ roslaunch moveit_setup_assistant setup_assistant.launch in the terminal.
 catalyst control folder contains python scripts that contain the move groups and are used to control and motion plan the robotic arm.
 creating one's own motion planning scripts is highly recommended.
 
-
-
-
+start simulation by using roslaunch '/home/user/workspace/src/catalyst/catalyst_control/launch/catalyst.launch' in terminal
