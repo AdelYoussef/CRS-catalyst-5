@@ -1,13 +1,23 @@
 # CRS-CataLyst-5
-rooro_final folder contains the extracted URDF for the CRS-CataLyst-5 robot.
 
-https://user-images.githubusercontent.com/63298005/158370879-d73d3144-acc6-4b30-80b3-62ea2f872c3f.mp4
+![catalyst](https://user-images.githubusercontent.com/63298005/159199989-918f583b-7d9e-439f-b880-6798731ba8c6.gif)
 
-rooro_moveit folder contains the extracted moveit directory, a new moveit configuration can be made by using the moveit setup assistant by 
-roslaunch moveit_setup_assistant setup_assistant.launch in the terminal.
-![image](https://user-images.githubusercontent.com/63298005/158363454-18c08cdf-bd2e-4ff2-8c16-792fc367e558.png)
+## rooro_final  
+contains the extracted URDF and mesh files regarding the robot.
 
-catalyst control folder contains python scripts that contain the move groups and are used to control and motion plan the robotic arm.
-creating one's own motion planning scripts is highly recommended.
+## rooro_moveit  
+contains the necessary files and configurations needed to apply motion control.
 
-start simulation by using roslaunch '/home/user/workspace/src/catalyst/catalyst_control/launch/catalyst.launch' in terminal
+these files were generated using the moveit setup assistant which is a GUI used for configuring robots.
+[moveit setup assistant tutorial](http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html)
+
+
+## catalyst_control 
+contains python scripts that were used to apply motion planning scenarios using moveit's motion planning API.
+[motion planning API tutorial](http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/motion_planning_api/motion_planning_api_tutorial.html)
+
+
+## simulation
+ start the simulation by typing the following command in the terminal `roslaunch catalyst_control catalyst.launch`
+ 
+ 
