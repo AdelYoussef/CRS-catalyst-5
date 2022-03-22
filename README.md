@@ -18,6 +18,6 @@ contains python scripts that were used to apply motion planning scenarios using 
 
 
 ## simulation
- start the simulation by typing the following command in the terminal `roslaunch catalyst_control catalyst.launch`
+ start the simulation by typing the following command in the terminal `roslaunch catalyst catalyst.launch`
  
  
