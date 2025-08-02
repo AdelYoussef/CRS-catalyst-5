@@ -1,8 +1,0 @@
-controller_list:
-  - name: fake_catalyst_arm_controller
-    joints:
-      - joint_one
-      - joint_two
-      - joint_three
-      - joint_four
-      - joint_five
