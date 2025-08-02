@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(find Catalyst_moveit)/launch/demo_gazebo.launch"/>
+
+  <node name="robot_planning" pkg="catalyst" type="robot_planning.py"  output="screen"/>
+</launch>
